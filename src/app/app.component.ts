@@ -16,7 +16,7 @@ export class AppComponent {
 
   private scrollBy(pixels: number) {
     window.scroll({
-      top: pixels,
+      top: window.scrollY + pixels,
       behavior: 'smooth',
     });
   }
