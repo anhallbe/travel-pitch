@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'travel-pitch';
+  scrollDown() {
+    this.scrollBy(window.innerHeight);
+  }
+
+  scrollUp() {
+    this.scrollBy(-window.innerHeight);
+  }
+
+  private scrollBy(pixels: number) {
+    window.scroll({
+      top: pixels,
+      behavior: 'smooth',
+    });
+  }
 }

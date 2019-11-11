@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PagerComponent } from './pager/pager.component';
+import { IconComponent } from './icon/icon.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PagerComponent,
+    IconComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
