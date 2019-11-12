@@ -74,6 +74,7 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
+              "baseHref": "https://anhallbe.github.io/travel-pitch/",
               "budgets": [
                 {
                   "type": "initial",
