@@ -54,7 +54,9 @@
               "node_modules/bulma/css/bulma.min.css",
               "node_modules/@mdi/font/css/materialdesignicons.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js"
+            ]
           },
           "configurations": {
             "production": {

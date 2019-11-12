@@ -15,9 +15,8 @@ export class AppComponent {
   }
 
   private scrollBy(pixels: number) {
-    window.scroll({
-      top: window.scrollY + pixels,
-      behavior: 'smooth',
-    });
+    $('html, body').animate({
+      scrollTop: window.scrollY + pixels,
+    }, 'slow');
   }
 }
